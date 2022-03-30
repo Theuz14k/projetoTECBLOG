@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.branco{
+    color: white;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+header{
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo{
+    padding: 10px;
+}
+
+nav{
+    padding: 10px;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+.datap{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+    padding: 6px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    color: #f7b600;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+main{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+article{
+    width: 660px;
+    float: left;
+}
+section > a{
+    color:#f7b600 ;
+    text-decoration: none;
+}
+
+section > a:hover{
+    text-decoration: underline;
+}
+
+#postagem1{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#MenuLateral{
+    width: 240px;
+    float: right;
+}
+footer{
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+.postagemlateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+.conteudoLateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.conteudoLateral > a{
+    text-decoration: none;
+    color: #f7b600;
+}
+.conteudoLateral > a:hover{
+    color:#f7b600 ;
+    text-decoration: underline;
+}
+h3{
+    color: #565656;
+    padding: 5px;
+    background-color: #ccc;
+}
